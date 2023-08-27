@@ -1,0 +1,176 @@
+:root{
+    --roxo-claro: rgb(187, 1, 187);
+    --roxo-forte: rgb(63, 0, 63);
+    --black-one: rgb(24, 24, 24);
+    --white-one: rgba(223, 223, 223, 0.842);
+    --yellow-one: #FAF43A;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+
+    display: grid;
+    place-items: center;
+
+    background-color: var(--white-one);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98.7vw;
+    height: 6vh;
+
+    background-color: var(--roxo-claro);
+
+    border-bottom: 2px solid var(--black-one);
+}
+
+.myLinks{
+    margin: auto 3vw ;
+    text-decoration: none;
+
+    font-size: 1.2rem;
+    color: var(--yellow-one);
+}
+.myLinks:hover{
+    border-bottom: 1px solid var(--yellow-one);
+}
+
+.articleBox{
+    width: 80vw;
+    margin: 5vh 2vw;
+}
+
+.introducao{
+    margin: 5vh auto;
+}
+.introducao>h1{
+    color: var(--roxo-claro);
+}
+.introducao>h3, h4{
+    color: var(--black-one);
+}
+.introducao>h4{
+    font-size: 1.2rem;
+}
+
+.imagensLinguagens{
+    display: flex;
+}
+.imagensLinguagens>img{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+}
+.imagensLinguagens>img:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}:not(:hover){
+    transition: .3s;
+}
+
+h1{
+    font-size: 1.4rem;
+}
+
+.conteudo>h3{
+    padding-top: 3vh;
+    color: var(--roxo-claro);
+}
+
+p{
+    font-size: 1.15rem;
+    padding-top: 1vh;
+}
+
+h5{
+    font-size: 1.2rem;
+    color: var(--roxo-claro);
+}
+
+#boxDaTecnologia{
+    text-align: justify;
+    margin: 5vh 5vw;
+
+    width: 80vw;
+    height: 100%;
+    border-radius: 20px;
+    border: 1px solid var(--black-one);
+}
+#boxDaTecnologia>h1{
+    padding: 1px 10px;
+}
+#boxDaTecnologia:hover{
+    transform: scale(1.05);
+    transition: .5s;
+}:not(:hover){
+    transition: .4s;
+}
+
+.boxHtml{
+    background-color: var(--roxo-claro);
+}
+
+.boxCss{
+    background-color: var(--roxo-claro);
+}
+
+.boxJavaScript{
+    background-color: var(--roxo-claro);
+}
+
+ul{
+    padding: 5px 10px;
+    list-style: none;
+}
+li{
+    padding-top: 5px;
+}
+
+h4{
+    font-size: 1.1rem;
+    margin-top: 2vh;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98.7vw;
+    height: 20vh;
+
+    background-color: var(--roxo-claro);
+
+    border-top: 1px solid var(--black-one);
+}
+.footerLinks{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footerColumn>a{
+    margin: .3vh auto;
+    text-decoration: none;
+    color: var(--yellow-one);
+    font-size: .9rem;
+
+}
+
+.footerColumn {
+    display: grid;
+    margin: auto 10vw; /* Espaçamento entre as colunas */
+}
