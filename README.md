@@ -9,4 +9,4 @@ Um simples artigo de dicas para iniciantes no Front-End, reforço de HTML e CSS
 
 ##### A página foi feita apenas com HTML e CSS, usei esse projeto para dar um reforço na minha prática das linguagens citadas, deixei ela responsiva e busquei deixar ela confortável para a leitura dos usuários.
 
-***** Testei a página no Chrome (sem problemas), Edge(sem problemas) e no Mozilla, onde o Header e o Footer ficaram com margens laterais.
+***** Testei a página no Chrome (sem problemas), Edge(sem problemas) e no Mozilla, onde o Header e o Footer ficaram com margens laterais. Quando aberta num celular, o footer da página fica com uma margem do lado direito, não consegui resolver
