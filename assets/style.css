@@ -177,9 +177,12 @@ footer{
 }
 
 @media (max-width: 767px) {
+    body{
+        text-align: justify;
+    }
     footer{
         width: 100vw;
-        height:25vh;
+        height: 20vh;
     }
     
     .footerColumn {
