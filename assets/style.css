@@ -177,8 +177,8 @@ footer{
 }
 
 @media (max-width: 767px) {
-    body{
-        text-align: justify;
+    .articleBox{
+        text-align: center;
     }
     footer{
         width: 100vw;
