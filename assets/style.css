@@ -175,3 +175,9 @@ footer{
     display: grid;
     margin: auto 10vw; /* Espaçamento entre as colunas */
 }
+
+@media (max-width: 767px) {
+    footer{
+        width: 100%;
+    }
+}
