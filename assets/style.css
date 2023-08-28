@@ -181,4 +181,14 @@ footer{
         width: 100vw;
         height:25vh;
     }
+    
+    .footerColumn {
+        display: grid;
+        margin: 1vh 5vw; /* Espaçamento entre as colunas */
+    }
+
+    .footerColumn>a{
+        margin: auto;
+        font-size: .8rem;
+    }
 }
